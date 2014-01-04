@@ -9,14 +9,7 @@ gem 'draper', '~> 1.0'
 gem 'js-routes'
 gem 'paperclip'
 
-group :development do
-  gem 'thin'
-end
 
-group :test do
-  gem 'shoulda'
-  gem 'factory_girl_rails'
-end
 
 group :development, :test do
   gem 'sqlite3'
