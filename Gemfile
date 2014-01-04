@@ -19,12 +19,12 @@ group :test do
 end
 
 group :development, :test do
-	gem 'sqlite3'
-  gem 'log_buddy'
+  gem 'sqlite3'
 end
 
 group :production do
-	gem "pg"
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :assets do
